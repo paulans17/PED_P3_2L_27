@@ -16,7 +16,24 @@ public class AB<T> implements I_AB<T> {
 
     @Override
     public void insertar(T elemento) {
-        // implementar según se defina (ej. inserción por la izquierda si vacío, etc.)
+        if (raiz == null) {
+            raiz = new NodoAB<>(elemento);
+        } else {
+            insertarRecursivo(raiz, elemento);
+        }
+    }
+
+    private void insertarRecursivo(NodoAB<T> nodo, T elemento) {
+        // Por defecto: inserta por la izquierda si está vacía, sino por la derecha
+        if (nodo.izquierdo == null) {
+            nodo.izquierdo = new NodoAB<>(elemento);
+        } else if (nodo.derecho == null) {
+            nodo.derecho = new NodoAB<>(elemento);
+        } else {
+            // Alternar para evitar que siempre crezca solo hacia un lado
+            // Aquí vamos insertando en el hijo izquierdo recursivamente
+            insertarRecursivo(nodo.izquierdo, elemento);
+        }
     }
 
     @Override

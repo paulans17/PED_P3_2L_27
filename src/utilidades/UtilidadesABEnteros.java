@@ -7,20 +7,39 @@ public class UtilidadesABEnteros {
     //LO QUE HACE O QUE ES: Crea los árboles AB1...AB5
     public static ABEnteros[] crearABEnteros() {
         ABEnteros[] arboles = new ABEnteros[5];
-        for (int i = 0; i < arboles.length; i++) {
+
+        for (int i = 0; i < 5; i++) {
             arboles[i] = new ABEnteros();
         }
 
-        // Ejemplo de inserción manual en algunos árboles:
-        arboles[0].insertar(2);  // AB1
+        // AB1
+        arboles[0].insertar(2);
         arboles[0].insertar(1);
         arboles[0].insertar(3);
 
-        arboles[2].insertar(2);  // AB3 (idéntico a AB1 para comparar)
+        // AB2 → vacío
+
+        // AB3 (igual a AB1)
+        arboles[2].insertar(2);
         arboles[2].insertar(1);
         arboles[2].insertar(3);
 
-        // arboles[1] vacío, arboles[3], arboles[4] puedes definirlos tú
+        // AB4
+        arboles[3].insertar(5);
+        arboles[3].insertar(4);
+        arboles[3].insertar(8);
+        arboles[3].insertar(1);
+        arboles[3].insertar(7);
+        arboles[3].insertar(9);
+
+        // AB5 simétrico
+        arboles[4].insertar(10);
+        arboles[4].insertar(5);
+        arboles[4].insertar(15);
+        arboles[4].insertar(2);
+        arboles[4].insertar(7);
+        arboles[4].insertar(13);
+        arboles[4].insertar(18);
 
         return arboles;
     }

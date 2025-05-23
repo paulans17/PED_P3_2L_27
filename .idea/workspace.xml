@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5644a3-93ea-4bc2-a2dc-db39fdc6913f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utilidades/UtilidadesABEnteros.java" afterDir="false" />
+    <list default="true" id="3d5644a3-93ea-4bc2-a2dc-db39fdc6913f" name="Changes" comment="corregi los errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UtilidadesArboles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jerarquicos/AB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jerarquicos/AB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jerarquicos/ABEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jerarquicos/ABEnteros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jerarquicos/NodoAB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jerarquicos/NodoAB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/I_AB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/I_AB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/I_ABEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/I_ABEnteros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilidades/ValidadorEntrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilidades/ValidadorEntrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilidades/cola/ColaEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilidades/cola/ColaEnteros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilidades/cola/NodoCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilidades/cola/NodoCola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilidades/UtilidadesABEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilidades/UtilidadesABEnteros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +79,33 @@
       <option name="presentableId" value="Default" />
       <updated>1747830204282</updated>
       <workItem from="1747830205374" duration="3957000" />
-      <workItem from="1747992307634" duration="2510000" />
+      <workItem from="1747992307634" duration="3565000" />
     </task>
+    <task id="LOCAL-00001" summary="creo que listo">
+      <option name="closed" value="true" />
+      <created>1747996844544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747996844544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="corregi los errores">
+      <option name="closed" value="true" />
+      <created>1747996953028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747996953028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creo que listo" />
+    <MESSAGE value="corregi los errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="corregi los errores" />
   </component>
 </project>
