@@ -28,13 +28,13 @@ public class UtilidadesABEnteros {
     //LO QUE HACE O QUE ES: Vacía un árbol sin recorrerlo
     public static void vaciarArbolModo1(ABEnteros ab) {
         // En Java basta con hacer que la raíz sea null
-        ab.raiz = null;
+        ab.vaciar();
     }
 
     //LO QUE HACE O QUE ES: Vacía un árbol recorriéndolo (versión recursiva)
     public static void vaciarArbolModo2(ABEnteros ab) {
-        vaciarRecursivo(ab.raiz);
-        ab.raiz = null;
+        vaciarRecursivo(ab.obtenerRaiz());
+        ab.vaciar();
     }
 
     //LO QUE HACE O QUE ES: Recorre y "borra" cada nodo (aunque Java libera solo)

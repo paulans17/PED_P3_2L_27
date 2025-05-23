@@ -8,7 +8,7 @@ import java.util.Queue;
 //LO QUE HACE O QUE ES: Implementación genérica de un árbol binario
 public class AB<T> implements I_AB<T> {
 
-    public NodoAB<T> raiz;
+    protected NodoAB<T> raiz;
 
     public AB() {
         this.raiz = null;
@@ -194,4 +194,7 @@ public class AB<T> implements I_AB<T> {
         this.raiz = null;
     }
 
+    public NodoAB<T> obtenerRaiz() {
+        return this.raiz;
+    }
 }
